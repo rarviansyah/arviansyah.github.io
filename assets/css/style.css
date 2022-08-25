@@ -283,7 +283,7 @@ img {
 }
 
 .home__blob-img {
-    width: 175px;
+    width: 200 px;
 }
 
 .home__data {
@@ -306,7 +306,7 @@ img {
 }
 
 .home__scroll {
-    display: none;
+    /* display: none; */
 }
 
 .home__scroll-button {
@@ -374,3 +374,9 @@ img {
 
 
 /* Active Modal */
+
+
+/*== PORTFOLIO ==*/
+
+
+/*== PROJECT IN MIND ==*/
