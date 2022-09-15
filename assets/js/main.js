@@ -20,14 +20,14 @@ if (navClose) {
 }
 
 /*REMOVE MENU MOBILE*/
-const navlink = document.querySelectorAll('.nav__link');
+const navLink = document.querySelectorAll('.nav__link');
 
-function linkaAction() {
+function linkAction() {
     const navMenu = document.getElementById('nav-menu');
-    // when we click on each nav__link, we remove the show-menu class
+    // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu');
 }
-navlink.forEach((n) => n.addEventListener('click', linkaAction));
+navLink.forEach((n) => n.addEventListener('click', linkAction));
 
 /* Accordion skills*/
 const skillsContent = document.getElementsByClassName('skills__content'),
@@ -37,10 +37,10 @@ function toggleSkills() {
     let itemClass = this.parentNode.className;
 
     for (i = 0; i < skillsContent.length; i++) {
-        skillsContent[i].className = 'skills__content skills__close';
+        skillsContent[i].className = 'skills_content skills_close';
     }
-    if (itemClass === 'skills__content skills__close') {
-        this.parentNode.className = 'skills__content skills__open';
+    if (itemClass === 'skills_content skills_close') {
+        this.parentNode.className = 'skilss_content skills_open';
     }
 }
 
