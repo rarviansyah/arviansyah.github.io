@@ -48,7 +48,7 @@ skillsHeader.forEach((el) => {
     el.addEventListener('click', toggleSkills);
 });
 
-// QUALIFICATION TABS
+/*===============QUALIFICATION TABS===========*/
 const tabs = document.querySelectorAll('[data-target]'),
     tabContents = document.querySelectorAll('[data-content]');
 
