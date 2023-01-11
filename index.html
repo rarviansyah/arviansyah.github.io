@@ -8,7 +8,7 @@
     <!-- UNICONS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
     <!-- SWIPER CSS -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -587,10 +587,10 @@
             <h2 class="section__title">Portfolio</h2>
             <span class="section__subtitle">Most recent work</span>
 
-            <div class="portfolio__container container">
-                <div>
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
                     <!--======= PORTFOLIO 1 ========-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -604,7 +604,7 @@
                     </div>
 
                     <!--======= PORTFOLIO 2 ========-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -618,7 +618,7 @@
                     </div>
 
                     <!--======= PORTFOLIO 3 ========-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -631,6 +631,13 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
@@ -638,8 +645,8 @@
 
         <!-- SCROLL TOP -->
 
+        <script src="assets/js/swiper-bundle.min.js"></script>
         <!-- SWIPER JS -->
-        <script src=" "></script>
 
         <!-- MAIN JS -->
         <script src="assets/js/main.js "></script>
