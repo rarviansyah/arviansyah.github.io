@@ -105,8 +105,8 @@ let swiper = new swiper('.portfolio__container', {
     keyboard: true,
 });
 
-// TESTIMONIAL
+/*======== TESTIMONIAL =======*/
 
-// SCROLL SECTIONS ACTIVE LINK
+/*============ SCROLL SECTIONS ACTIVE LINK =============*/
 
-// CHANGE BACKGOUND HEADER
+/*========= CHANGE BACKGOUND HEADER ==========*/
