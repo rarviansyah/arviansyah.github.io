@@ -107,7 +107,7 @@ let swiperPortfolio = new Swiper('.portfolio_container', {
 });
 
 /*======== TESTIMONIAL =======*/
-let swiperTestimonial = new Swiper('.testimonial_container', {
+let swiperTestimonial = new Swiper('.testimonial__container', {
   loop: true,
   grabCursor: true,
   spaceBetween: 48,
@@ -116,6 +116,11 @@ let swiperTestimonial = new Swiper('.testimonial_container', {
     el: '.swiper-pagination',
     clickabel: true,
     dynamicBullets: true,
+  },
+  breakpoints: {
+    568: {
+      slidesPerView: 2,
+    },
   },
 });
 /*============ SCROLL SECTIONS ACTIVE LINK =============*/
